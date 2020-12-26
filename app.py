@@ -42,9 +42,9 @@ def handle_message(event):
 
     if msg =='hi':
         r ='hi'
-    elif msg =='你吃飯了嗎?'
-        r = '還沒餒'
-    elif msg =='在做什麼呢?'
+    elif msg =='你吃飯了嗎?':
+        r = '還沒呢'
+    elif msg =='在做什麼呢?':
         r = '發呆~'
     
     line_bot_api.reply_message(
